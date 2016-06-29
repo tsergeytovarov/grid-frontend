@@ -112,6 +112,16 @@ $blue: #b4e7f8;
     font-size: 24px;
     font-weight: 700;
     line-height: 27px;
+
+    @media (max-width: 960px) {
+      float: none;
+      margin: 50px;
+      width: auto;
+    }
+
+    @media (max-width: 768px) {
+      margin: 20px 0;
+    }
   }
 
   cite {
