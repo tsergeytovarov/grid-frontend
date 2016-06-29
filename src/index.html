@@ -9,6 +9,18 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+  <div class="control">
+    <form action="/echo" method="get">
+      <select name="teme" class="js-change-teme">
+        <option value="wired" selected>Wired</option>
+        <option value="verge">Verge</option>
+        <option value="techcrunch">Techcrunch</option>
+      </select>
+      <button type="button" class="js-container" data-value="desktop">Десктоп</button>
+      <button type="button" class="js-container" data-value="tablet">Планшет</button>
+      <button type="button" class="js-container" data-value="mobile">Мобильный</button>
+    </form>
+  </div>
   <div class="container">
     <article class="post wired">
       <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
