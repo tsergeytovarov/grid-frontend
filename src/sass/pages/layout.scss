@@ -1,5 +1,4 @@
 .container {
-  max-width: 685px;
   margin: 50px auto;
 
   @media (max-width: 960px) {
@@ -10,6 +9,10 @@
   @media (max-width: 768px) {
     margin: 15px;
     width: auto;
+  }
+
+  &--desktop {
+    max-width: 685px;
   }
 
   &--tablet {
