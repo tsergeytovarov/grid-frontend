@@ -1,0 +1,20 @@
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 22px 90px;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  transition: background-color 0.1s linear;
+  text-align: center;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 39px;
+
+  &:hover {
+    background-color: #ffca28;
+  }
+}

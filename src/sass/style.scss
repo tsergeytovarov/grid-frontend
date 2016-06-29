@@ -1,0 +1,25 @@
+/*=== миксины слой ===*/
+
+@import "_mixins/mixins";
+
+
+
+/*=== базовый слой ===*/
+
+@import "base/__variable";
+@import "base/__normalize";
+@import "base/typography";
+@import "base/buttons";
+@import "base/forms";
+
+
+
+/*=== компоненты ===*/
+
+@import "components/news";
+@import "components/news-item";
+
+
+/*=== страницы ===*/
+
+@import "pages/layout";
