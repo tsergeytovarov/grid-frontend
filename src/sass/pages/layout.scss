@@ -11,4 +11,12 @@
     margin: 15px;
     width: auto;
   }
+
+  &--tablet {
+    max-width: 600px;
+  }
+
+  &--mobile {
+    max-width: 360px;
+  }
 }
