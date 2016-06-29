@@ -51,7 +51,6 @@ $blue: #b4e7f8;
     border-bottom: 3px solid $blue;
     box-shadow: inset 0 -4px 0 $blue;
     color: inherit;
-    color: inherit;
     transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
     text-decoration: none;
 
@@ -125,7 +124,6 @@ $blue: #b4e7f8;
   }
 
   cite {
-    display: block;
     display: block;
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.6);
