@@ -8,8 +8,7 @@
   if (temeSelect) {
     temeSelect.addEventListener('change', function(evt) {
       evt.preventDefault();
-      postContainer.classList = '';
-      postContainer.classList.add('post');
+      postContainer.classList.remove('wired', 'verge', 'techcrunch');
       postContainer.classList.add(temeSelect.value);
     });
   }
